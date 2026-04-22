@@ -57,7 +57,6 @@ The software takes a bit of time to learn; but view that as a good thing... the 
 7. If you want to use the Overlays on your main game screen, you can go to the "Dash Studio/Overlays" section in Simhub to add a New Overlay. **You can then position and resize the overlay on your main game screen as needed**.
 ---
 ![Overlays](https://github.com/user0451/Truckers-GPS-Pro/blob/master/media/simhuboverlays.png)
-- ⬆️ ETS2 with Overlays. Yes, I am using a Renault Magnum, and I am loving it!
 
 ### Simhub Actions
 The dashboard provides some functionality for you to play with. You can bind keys to the following actions:
@@ -89,6 +88,7 @@ There are additional binds for some overlays:
 
 
 ![Overlays](https://github.com/user0451/Truckers-GPS-Pro/blob/master/media/overlays.png)
+- ⬆️ ETS2 with Overlays. Yes, I am using a Renault Magnum, and I am loving it!
 ---
 ### Customisation
 - You can edit any of the text, colours, fonts, and other elements in the dashboard and overlays to your liking. Just go to the "Dashboards" or "Overlays" section in Simhub, select the dashboard or overlay you want to edit, and click "Edit". This will open the editor where you can make changes to the design and layout.
