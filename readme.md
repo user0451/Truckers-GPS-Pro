@@ -1,10 +1,9 @@
 ## Truckers GPS PRO: Dashboard and Overlays for ETS2 and ATS
 This is a custom dashboard and set of overlays for Euro Truck Simulator 2 (ETS2) and American Truck Simulator (ATS) created using Simhub. The dashboard and overlays are designed to provide additional information about the world around you while you are driving, such as your location, ETA, rest stops, fuel stops, and more. The dashboard is designed to be used on a separate screen, while the overlays can be used on the main game screen to provide additional information without taking up too much space.
 
-
+![[media/Overlays display.png|660]]
 ### About
 https://www.simhubdash.com/
-
 I use this program to create a dashboard for ETS2 and ATS. A dashboard is like an additional screen that can link to and display live information from certain games as well as send information to that game, so we could push a button for example to perform some function, such as switching the truck lights on and off.
 
 The aim of this dashboard is not to focus on the truck however (lots of lovely buttons, knobs and dials), but rather to focus on the world itself.  There are many excellent Simhub dashboards already focused on the truck, but I wanted to create something that would be more focused on the world around me and the journey itself. I want to know where I am, where I'm going, how long it will take me to get there, and what I can expect along the way.
@@ -54,7 +53,7 @@ The dashboard provides some functionality for you to play with:
 >- *Action A*: (Or press the Job ETA label) This will switch beween showing the Eta including resting time, and the ETA without resting time. If you switch off Fatigue in the game, then the ETA without resting time will be for you, but if you have Fatigue on, then the ETA including resting time will be more accurate. So you can choose which one to show based on your preferences and how you play the game.
 >- *Action B*: (or press the km/h label) This will switch between showing the current speed in km/h and mph. You may want mph when in the UK, but km/h when in the rest of Europe. It's up to you. ETS2 defaults to km/h; ATS defaults to mph.
 >- *Action C*: (or press the clock) This will switch between 12h and 24h time formats.
->- *Action D*: (or press the Services section) This will toggle though three states for the nearest service points: 
+>- *Action D*: (or press the Services section) This will toggle three states for the nearest service points: 
 	- show nearest service points with no scaling
 	- show nearest services points with game scaling
 	- switch off service points
