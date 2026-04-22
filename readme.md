@@ -22,9 +22,9 @@ I want it to be "smart"; to figure things out for me that I want to know on my t
 
 Is that too much to ask! Well, as it turns out; nope, we've got all that and more.
 
-It's just a personal project I've been messing with for a year or so, set up for how I like to play. I originally created in for a 7" display, but I have since moved it to a 1080p display, so it's not optimised for the smaller screen anymore. Therefore, the dashboard requires a seperate screen to run on. 
+It's just a personal project I've been messing with for a year or so, set up for how I like to play. I originally created it for a 7" display, but I have since moved it to a 1080p display, so it's not optimised for the smaller screen anymore. Therefore, the dashboard requires a seperate screen to run on. 
 
-However, this is why I created the Simhub Overlays, which can be used on the main game screen, so you can have the best of both worlds. The dashboard is designed to be used on a seperate screen and features much more information, but the overlays are designed to be used on the main game screen. 
+However, this is why I created the Simhub Overlays, which can be used on the main game screen, so you can have the best of both worlds. The dashboard is designed to be used on a seperate screen and features much more information, but the overlays are designed to be used on the main game screen. Show you current location or direction on the main game screen, and then look at the dashboard for more detailed information about your trip. You can choose which information you want to see on the main game screen and which information you want to see on the dashboard, it's up to you.
 
 **It would be great to see youTubers and streamers using the Location Overlays on their main game screen, so we can all see where they are in the world...** You learn a lot about Geography when you play these games!
 
@@ -41,13 +41,13 @@ The software takes a bit of time to learn; but view that as a good thing... the 
 
 ### Basic Installation and Setup
 1. Download and install Simhub from the official website: 
-2. Download the dashboard files from my GitHub repository:
+2. Download the dashboard files: https://github.com/user0451/Truckers-GPS-Pro/releases/tag/v1.42
    - You can grab the main Dashboard or any/all of the individual Overlays
 3. Open Simhub and go to the "Dashboards" section.
-4. Click on "Import Dashboard" and select the downloaded dashboard file (or files).
-5. Once imported, you can select the dashboard from the list and click "Apply" to start using it.
+4. Click on "Import Dashboard" and select the downloaded dashboard file (or files). This will import the dashboard into Simhub and make it available for you to use.
+5. Once the dashboard is imported, you can select it from the list of available dashboards.
 6. If you have a separate screen, you can drag the dashboard window to that screen and resize it as needed.
-7. If you want to use the overlays on your main game screen, you can go to the "Dash Studio/Overlays" section in Simhub to add a New Overlay. **You can then position and resize the overlay on your main game screen as needed**.
+7. If you want to use the Overlays on your main game screen, you can go to the "Dash Studio/Overlays" section in Simhub to add a New Overlay. **You can then position and resize the overlay on your main game screen as needed**.
 
 ### Actions
 The dashboard provides some functionality for you to play with:
