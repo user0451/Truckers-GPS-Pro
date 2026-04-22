@@ -36,7 +36,7 @@ I must confess, the code is not polished, and there are some things that I would
 
 Feel free to use any of the ideas or code that I have included in my dashboard, and if you do create something similar, please share it with me, I'd love to see what you come up with!
 
-![Dashboard](https://github.com/user0451/Truckers-GPS-Pro/blob/master/media/dash2.png)
+![Dashboard](https://github.com/user0451/Truckers-GPS-Pro/blob/master/media/dashSicilyToSardinia.png)
 - ⬆️ This is the main dashboard, showing the ETA for the current job, including our expected rest stops. It also shows the current day and time, the due day and time for the load, the current city and country we're in, and the direction we're currently moving in. The dashboard also shows the nearest service points (fuel, rest, service).
 
 ### Simhub
@@ -108,6 +108,9 @@ It needs some love though guys; there are plenty of new values that could be exp
 - https://github.com/SHWotever/SimHub - Thanks to the Simhub team for creating such an amazing tool that allows us to create custom dashboards and overlays for our games. Without Simhub, this project would not have been possible. Well, it would, but it would be much messier... A special thanks for keeping the Truckmaps up to date in Simhub.
 - https://github.com/dariowouters/ts-map/ - for maintaining the Truckmaps project so diligently. These are an essential part of my dashboard and overlays. The ts-map project provides the data that allows us to display the location information and other features in the dashboard not found in the SCS telemetry data. Legend.
 - https://github.com/nlhans/ets2-map - The original Truckmaps project, thanks dude.
+
+## Updates
+Currently supporting **v1.58** of ATS and ETS2. I will update the dashboard and overlays as new versions are released. But, I must wait until ts-map has been updated and then parse that data to include custom values (UK countries, Sardinia, etc). So, expect an update within a week or two for a new game version (my, do they come thick and fast these days!).
 
 ## License
 Help yourself to the code or ideas in this project.
