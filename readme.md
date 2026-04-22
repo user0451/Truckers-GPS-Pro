@@ -103,14 +103,14 @@ If just want you to enjoy any extra immersion and fun that the dashboard and ove
 ### Thanks/Credits
 Why is my software free? Because these guys did most of the work!
 
-- SCS Software - for creating such amazing games that allow us to explore the world and have fun driving trucks around. But mostly, for exposing the telemetry data that allows us to have more immersive experiences. The telemetry data is what allows us to access the information we need to create the features in the dashboard and overlays. Fundamentally, this is the tool that has kept me in the game for so long; not the game itself!
-It needs some love though guys; there are plenty of new values that could be exposed, and there are some odd data errors creeping in here and there (max fuel on the new trucks...)
+- SCS Software - for creating such amazing games that allow us to explore the world and have fun driving trucks around. But mostly, for exposing the telemetry data that allows us to have more immersive experiences. The telemetry data is what allows us to access the information needed to create the features in dashboards and overlays, or button-boxes or the rev-limiter on your steering wheel. Fundamentally, this is the tool that has kept me in the game for so long; not the game itself!
+It needs some love though guys; there are plenty of new values that could be exposed, and there are some odd data errors creeping in here and there (max fuel on the new trucks...). Are you going to add new coach stuff?
 - https://github.com/SHWotever/SimHub - Thanks to the Simhub team for creating such an amazing tool that allows us to create custom dashboards and overlays for our games. Without Simhub, this project would not have been possible. Well, it would, but it would be much messier... A special thanks for keeping the Truckmaps up to date in Simhub.
 - https://github.com/dariowouters/ts-map/ - for maintaining the Truckmaps project so diligently. These are an essential part of my dashboard and overlays. The ts-map project provides the data that allows us to display the location information and other features in the dashboard not found in the SCS telemetry data. Legend.
 - https://github.com/nlhans/ets2-map - The original Truckmaps project, thanks dude.
 
 ## Updates
-Currently supporting **v1.58** of ATS and ETS2. I will update the dashboard and overlays as new versions are released. But, I must wait until ts-map has been updated and then parse that data to include custom values (UK countries, Sardinia, etc). So, expect an update within a week or two for a new game version (my, do they come thick and fast these days!).
+Currently supporting **v1.58** of ATS and ETS2, including all DLC maps. I will update the dashboard and overlays as new versions are released. But, I must wait until ts-map has been updated and then parse that data into what we need and include custom values (UK countries, Sardinia, etc). And someimes, it relies on all of us in the chain to purchase the latest DLC maps, which I warn you, I do not always do... So, expect an update within a week or two for a new game version (my, do they come thick and fast these days!) and who knows for DLCs.
 
 ## License
 Help yourself to the code or ideas in this project.
