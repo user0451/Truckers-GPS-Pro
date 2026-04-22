@@ -31,7 +31,7 @@ However, this is why I created the Simhub Overlays, which can be used on the mai
 I must confess, the code is not polished, and there are some things that I would like to improve (some features are pretty pointless!), but it works and I am happy with it for now. I may continue to make improvements and add new features as I have time, but for now, I am happy to share it for others to use, if I can reach my target audience of about two people! If they don't like something, they can remove it or change it to their liking, that's the beauty of Simhub and this project.
 
 Feel free to use any of the ideas or code that I have included in my dashboard, and if you do create something similar, please share it with me, I'd love to see what you come up with!
-
+![Dashboard](https://github.com/user0451/Truckers-GPS-Pro/blob/master/media/dash2.png)
 ### Simhub
 https://www.simhubdash.com/. It is free to use and supports a wide range of games, including ETS2 and ATS. Simhub allows you to create custom dashboards and overlays that can display live information from the game and send information back to the game. It is a powerful tool that can be used to create all sorts of custom button boxes, screens, dashboards and overlays for your games. You can pay a small amount for a licensed version to help the devs.
 
@@ -48,7 +48,7 @@ The software takes a bit of time to learn; but view that as a good thing... the 
 5. Once the dashboard is imported, you can select it from the list of available dashboards.
 6. If you have a separate screen, you can drag the dashboard window to that screen and resize it as needed.
 7. If you want to use the Overlays on your main game screen, you can go to the "Dash Studio/Overlays" section in Simhub to add a New Overlay. **You can then position and resize the overlay on your main game screen as needed**.
-
+![Overlays](https://github.com/user0451/Truckers-GPS-Pro/blob/master/media/simhuboverlays.png)
 ### Actions
 The dashboard provides some functionality for you to play with:
 >- *Action A*: (Or press the Job ETA label) This will switch beween showing the Eta including resting time, and the ETA without resting time. If you switch off Fatigue in the game, then the ETA without resting time will be for you, but if you have Fatigue on, then the ETA including resting time will be more accurate. So you can choose which one to show based on your preferences and how you play the game.
@@ -67,7 +67,7 @@ There are additional binds for some overlays:
 bind a key to Next or Previous to switch between the compass display modes:
 	- rotating needle with fixed rose
 	- rotating rose with fixed needle; whatever floats your boat!
-
+![Overlays](https://github.com/user0451/Truckers-GPS-Pro/blob/master/media/overlays.png)
 ### Customisation
 - You can edit any of the text, colours, fonts, and other elements in the dashboard and overlays to your liking. Just go to the "Dashboards" or "Overlays" section in Simhub, select the dashboard or overlay you want to edit, and click "Edit". This will open the editor where you can make changes to the design and layout.
 - You can also add new elements or remove existing ones if you want to further customise the dashboard to your liking. Just use the editor to add new text fields, images, or other elements, and then use the Simhub variables to link them to the game data you want to display.
