@@ -4,7 +4,7 @@ This is a custom dashboard and set of overlays for Euro Truck Simulator 2 (ETS2)
 ![Dashboard](https://github.com/user0451/Truckers-GPS-Pro/blob/master/media/dash4.png)
 
 - ⬆️ This is the main dashboard, but we're currently not on a job, so it's showing a wikipedia page about the city we're in.
-- ⬇️ This is the overlays, place them anywhere on your game screen to show additional information while driving.
+- ⬇️ These are the overlays, place one or all of them anywhere on your game screen to show additional information while driving.
 
 ![Overlays](https://github.com/user0451/Truckers-GPS-Pro/blob/master/media/Overlays%20display.png)
 ### About
@@ -37,7 +37,7 @@ I must confess, the code is not polished, and there are some things that I would
 Feel free to use any of the ideas or code that I have included in my dashboard, and if you do create something similar, please share it with me, I'd love to see what you come up with!
 
 ![Dashboard](https://github.com/user0451/Truckers-GPS-Pro/blob/master/media/dash2.png)
-- ⬆️ This is the main dashboard, showing the ETA for the current job, including any expected rest stops. It also shows the current day and time, the due day and time for the load, the current country we're in, and the direction we're currently moving in. The dashboard also shows the nearest service points (fuel, rest, service) and how many rest stops we need to take during our journey.
+- ⬆️ This is the main dashboard, showing the ETA for the current job, including our expected rest stops. It also shows the current day and time, the due day and time for the load, the current city and country we're in, and the direction we're currently moving in. The dashboard also shows the nearest service points (fuel, rest, service).
 
 ### Simhub
 https://www.simhubdash.com/. It is free to use and supports a wide range of games, including ETS2 and ATS. Simhub allows you to create custom dashboards and overlays that can display live information from the game and send information back to the game. It is a powerful tool that can be used to create all sorts of custom button boxes, screens, dashboards and overlays for your games. You can pay a small amount for a licensed version to help the devs.
