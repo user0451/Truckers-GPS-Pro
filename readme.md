@@ -50,24 +50,35 @@ The software takes a bit of time to learn; but view that as a good thing... the 
 7. If you want to use the Overlays on your main game screen, you can go to the "Dash Studio/Overlays" section in Simhub to add a New Overlay. **You can then position and resize the overlay on your main game screen as needed**.
 ---
 ![Overlays](https://github.com/user0451/Truckers-GPS-Pro/blob/master/media/simhuboverlays.png)
-### Actions
-The dashboard provides some functionality for you to play with:
->- *Action A*: (Or press the Job ETA label) This will switch beween showing the Eta including resting time, and the ETA without resting time. If you switch off Fatigue in the game, then the ETA without resting time will be for you, but if you have Fatigue on, then the ETA including resting time will be more accurate. So you can choose which one to show based on your preferences and how you play the game.
->- *Action B*: (or press the km/h label) This will switch between showing the current speed in km/h and mph. You may want mph when in the UK, but km/h when in the rest of Europe. It's up to you. ETS2 defaults to km/h; ATS defaults to mph.
->- *Action C*: (or press the clock) This will switch between 12h and 24h time formats.
->- *Action D*: (or press the Services section) This will toggle three states for the nearest service points: 
-	- show nearest service points with no scaling
-	- show nearest services points with game scaling
-	- switch off service points
+### Simhub Actions
+The dashboard provides some functionality for you to play with. You can bind keys to the following actions:
+
+>*Action A*
+>- (Or press the Job ETA label) This will switch beween showing the Eta including resting time, and the ETA without resting time. If you switch off Fatigue in the game, then the ETA without resting time will be for you, but if you have Fatigue on, then the ETA including resting time will be more accurate. So you can choose which one to show based on your preferences and how you play the game.
+
+>*Action B*
+>- (or press the km/h label) This will switch between showing the current speed in km/h and mph. You may want mph when in the UK, but km/h when in the rest of Europe. It's up to you. ETS2 defaults to km/h; ATS defaults to mph.
+
+>*Action C*
+>- (or press the clock) This will switch between 12h and 24h time formats.
+
+>*Action D*
+>- (or press the Services section) This will toggle three states for the nearest service points: 
+>	- show nearest service points with no scaling
+>	- show nearest services points with game scaling
+>	- switch off service points
 
 There are additional binds for some overlays:
->- *Location & Scale*: 
->		- bind a key to Next or Previous to switch between text alignment (left, centre (British!), right). 
+>*Location & Scale*
+>- bind a key to Next or Previous to switch between text alignment (left, centre (British!), right). 
 >For example, if you display the location overlay on the top left of the screen, you can align the text to the left to match.
->- *Compass*: 
-bind a key to Next or Previous to switch between the compass display modes:
-	- rotating needle with fixed rose
-	- rotating rose with fixed needle; whatever floats your boat!
+
+>*Compass* 
+>- bind a key to Next or Previous to switch between the compass display modes:
+>	- rotating needle with fixed rose
+>	- rotating rose with fixed needle; whatever floats your boat!
+
+
 ![Overlays](https://github.com/user0451/Truckers-GPS-Pro/blob/master/media/overlays.png)
 ---
 ### Customisation
@@ -83,10 +94,10 @@ If just want you to enjoy any extra immersion and fun that the dashboard and ove
 ### Thanks/Credits
 Why is my software free? Because these guys did most of the work!
 
-- SCS Software - for creating such amazing games that allow us to explore the world and have fun driving trucks around. But mostly, for exposing the telemetry data that allows us to have more immersive experiences. The telemetry data is what allows us to access the information we need to create the features in the dashboard and overlays, so without it, this project would not be possible. Fundamentally, this is the tool that has kept me in the game for so long; not the game itself!
+- SCS Software - for creating such amazing games that allow us to explore the world and have fun driving trucks around. But mostly, for exposing the telemetry data that allows us to have more immersive experiences. The telemetry data is what allows us to access the information we need to create the features in the dashboard and overlays. Fundamentally, this is the tool that has kept me in the game for so long; not the game itself!
 It needs some love though guys; there are plenty of new values that could be exposed, and there are some odd data errors creeping in here and there (max fuel on the new trucks...)
 - https://github.com/SHWotever/SimHub - Thanks to the Simhub team for creating such an amazing tool that allows us to create custom dashboards and overlays for our games. Without Simhub, this project would not have been possible. Well, it would, but it would be much messier... A special thanks for keeping the Truckmaps up to date in Simhub.
-- https://github.com/dariowouters/ts-map/ - for maintaining the Truckmaps project so diligently. These are an essential part of my dashboard and overlays. The Truckmaps provide the data that allows us to display the location information and other features in the dashboard. Legend.
+- https://github.com/dariowouters/ts-map/ - for maintaining the Truckmaps project so diligently. These are an essential part of my dashboard and overlays. The ts-map project provides the data that allows us to display the location information and other features in the dashboard not found in the SCS telemetry data. Legend.
 - https://github.com/nlhans/ets2-map - The original Truckmaps project, thanks dude.
 
 ## License
