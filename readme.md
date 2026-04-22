@@ -48,6 +48,7 @@ The software takes a bit of time to learn; but view that as a good thing... the 
 5. Once the dashboard is imported, you can select it from the list of available dashboards.
 6. If you have a separate screen, you can drag the dashboard window to that screen and resize it as needed.
 7. If you want to use the Overlays on your main game screen, you can go to the "Dash Studio/Overlays" section in Simhub to add a New Overlay. **You can then position and resize the overlay on your main game screen as needed**.
+---
 ![Overlays](https://github.com/user0451/Truckers-GPS-Pro/blob/master/media/simhuboverlays.png)
 ### Actions
 The dashboard provides some functionality for you to play with:
@@ -68,10 +69,12 @@ bind a key to Next or Previous to switch between the compass display modes:
 	- rotating needle with fixed rose
 	- rotating rose with fixed needle; whatever floats your boat!
 ![Overlays](https://github.com/user0451/Truckers-GPS-Pro/blob/master/media/overlays.png)
+---
 ### Customisation
 - You can edit any of the text, colours, fonts, and other elements in the dashboard and overlays to your liking. Just go to the "Dashboards" or "Overlays" section in Simhub, select the dashboard or overlay you want to edit, and click "Edit". This will open the editor where you can make changes to the design and layout.
 - You can also add new elements or remove existing ones if you want to further customise the dashboard to your liking. Just use the editor to add new text fields, images, or other elements, and then use the Simhub variables to link them to the game data you want to display.
 - Want to know how I've done some of the things in the dashboard? Look at the code in the elements and see how I've used the Simhub variables and functions to create the features. I may add some specific docs for some of the more complex features in the future, but for now, you can just look at the code and see how I've done it. 
+---
 ### Feedback and Suggestions
 - We're not getting a Discord server! No mailing lists, no forums, no support channels! This is a one man show, so if you have any feedback or suggestions, please just reach out to me on GitHub. I would love to hear from you and see what you think of the dashboard and overlays. If you have any ideas for new features or improvements, please let me know, and I will see if I can add them in future updates. 
 
