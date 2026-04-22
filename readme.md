@@ -2,6 +2,10 @@
 This is a custom dashboard and set of overlays for Euro Truck Simulator 2 (ETS2) and American Truck Simulator (ATS) created using Simhub. The dashboard and overlays are designed to provide additional information about the world around you while you are driving, such as your location, ETA, rest stops, fuel stops, and more. The dashboard is designed to be used on a separate screen, while the overlays can be used on the main game screen to provide additional information without taking up too much space.
 
 ![Dashboard](https://github.com/user0451/Truckers-GPS-Pro/blob/master/media/dash4.png)
+
+- ⬆️ This is the main dashboard, but we're currently not on a job, so it's showing a wikipedia page about the city we're in.
+- ⬇️ This is the overlays, place them anywhere on your game screen to show additional information while driving.
+
 ![Overlays](https://github.com/user0451/Truckers-GPS-Pro/blob/master/media/Overlays%20display.png)
 ### About
 https://www.simhubdash.com/
@@ -31,7 +35,10 @@ However, this is why I created the Simhub Overlays, which can be used on the mai
 I must confess, the code is not polished, and there are some things that I would like to improve (some features are pretty pointless!), but it works and I am happy with it for now. I may continue to make improvements and add new features as I have time, but for now, I am happy to share it for others to use, if I can reach my target audience of about two people! If they don't like something, they can remove it or change it to their liking, that's the beauty of Simhub and this project.
 
 Feel free to use any of the ideas or code that I have included in my dashboard, and if you do create something similar, please share it with me, I'd love to see what you come up with!
+
 ![Dashboard](https://github.com/user0451/Truckers-GPS-Pro/blob/master/media/dash2.png)
+- ⬆️ This is the main dashboard, showing the ETA for the current job, including any expected rest stops. It also shows the current day and time, the due day and time for the load, the current country we're in, and the direction we're currently moving in. The dashboard also shows the nearest service points (fuel, rest, service) and how many rest stops we need to take during our journey.
+
 ### Simhub
 https://www.simhubdash.com/. It is free to use and supports a wide range of games, including ETS2 and ATS. Simhub allows you to create custom dashboards and overlays that can display live information from the game and send information back to the game. It is a powerful tool that can be used to create all sorts of custom button boxes, screens, dashboards and overlays for your games. You can pay a small amount for a licensed version to help the devs.
 
@@ -50,6 +57,8 @@ The software takes a bit of time to learn; but view that as a good thing... the 
 7. If you want to use the Overlays on your main game screen, you can go to the "Dash Studio/Overlays" section in Simhub to add a New Overlay. **You can then position and resize the overlay on your main game screen as needed**.
 ---
 ![Overlays](https://github.com/user0451/Truckers-GPS-Pro/blob/master/media/simhuboverlays.png)
+- ⬆️ ETS2 with Overlays. Yes, I am using a Renault Magnum, and I am loving it!
+
 ### Simhub Actions
 The dashboard provides some functionality for you to play with. You can bind keys to the following actions:
 
