@@ -1,12 +1,10 @@
 ## Truckers GPS PRO: Dashboard and Overlays for ETS2 and ATS (v1.58)
 This is a custom dashboard and set of overlays for Euro Truck Simulator 2 (ETS2) and American Truck Simulator (ATS) created using Simhub. The dashboard and overlays are designed to provide additional information about the world around you while you are driving, such as your location, ETA, rest stops, fuel stops, and more. The dashboard is designed to be used on a separate screen, while the overlays can be used on the main game screen to provide additional information without taking up too much space.
 
-![Dashboard](https://github.com/user0451/Truckers-GPS-Pro/blob/master/media/dash4.png)
-
-- ⬆️ This is the main dashboard, but we're currently not on a job, so it's showing a wikipedia page about the city we're in.
-- ⬇️ These are the overlays, place one or all of them anywhere on your game screen to show additional information while driving.
-
-![Overlays](https://github.com/user0451/Truckers-GPS-Pro/blob/master/media/Overlays%20display.png)
+![overlay](https://github.com/user0451/Truckers-GPS-Pro/blob/master/media/131858.png)
+- ⬆️ These are the overlays, place one or all of them anywhere on your game screen to show additional information while driving
+- ⬇️ This is the main dashboard
+![Dashboard](https://github.com/user0451/Truckers-GPS-Pro/blob/master/media/dash3.png)
 ### About
 https://www.simhubdash.com/
 I use this program to create a dashboard for ETS2 and ATS. A dashboard is like an additional screen that can link to and display live information from certain games as well as send information to that game, so we could push a button for example to perform some function, such as switching the truck lights on and off.
@@ -56,8 +54,7 @@ The software takes a bit of time to learn; but view that as a good thing... the 
 6. If you have a separate screen, you can drag the dashboard window to that screen and resize it as needed.
 7. If you want to use the Overlays on your main game screen, you can go to the "Dash Studio/Overlays" section in Simhub to add a New Overlay. **You can then position and resize the overlay on your main game screen as needed**.
 ---
-![Overlays](https://github.com/user0451/Truckers-GPS-Pro/blob/master/media/simhuboverlays.png)
-
+![Overlays](https://github.com/user0451/Truckers-GPS-Pro/blob/master/media/133630.png)
 ### Simhub Actions
 The dashboard provides some functionality for you to play with. You can bind keys to the following actions:
 
