@@ -1,13 +1,15 @@
 ## Truckers GPS PRO: Dashboard and Overlays for ETS2 and ATS (v1.58)
 This is a custom dashboard and set of overlays for Euro Truck Simulator 2 (ETS2) and American Truck Simulator (ATS) created using Simhub. The dashboard and overlays are designed to provide additional information about the world around you while you are driving, such as your location, ETA, rest stops, fuel stops, and more. The dashboard is designed to be used on a separate screen, while the overlays can be used on the main game screen to provide additional information without taking up too much space.
 
+[Download the latest release here](https://github.com/user0451/Truckers-GPS-Pro/releases/tag/v1.42)
+
 ![overlay](https://github.com/user0451/Truckers-GPS-Pro/blob/master/media/131858.png)
 - ⬆️ These are the overlays, place one or all of them anywhere on your game screen to show additional information while driving
 - ⬇️ This is the main dashboard
 ![Dashboard](https://github.com/user0451/Truckers-GPS-Pro/blob/master/media/dash3.png)
 ### About
-https://www.simhubdash.com/
-I use this program to create a dashboard for ETS2 and ATS. A dashboard is like an additional screen that can link to and display live information from certain games as well as send information to that game, so we could push a button for example to perform some function, such as switching the truck lights on and off.
+
+I use [Simhub](https://www.simhubdash.com/) to create a dashboard for ETS2 and ATS. A dashboard is like an additional screen that can link to and display live information from certain games as well as send information to that game, so we could push a button for example to perform some function, such as switching the truck lights on and off.
 
 The aim of this dashboard is not to focus on the truck however (lots of lovely buttons, knobs and dials), but rather to focus on the world itself.  There are many excellent Simhub dashboards already focused on the truck, but I wanted to create something that would be more focused on the world around me and the journey itself. I want to know where I am, where I'm going, how long it will take me to get there, and what I can expect along the way.
 
@@ -45,7 +47,7 @@ You can use Simhub just to view your dashboard, or you can get creative with it.
 The software takes a bit of time to learn; but view that as a good thing... the more time you spend learning how to use it, the more you can get out of it and the more fun you can have creating your own custom dashboards and overlays. There are many tutorials and resources available online to help you learn how to use Simhub, so don't be afraid to dive in and start experimenting with it. And I haven't got it all figured out myself, so you don't have to either! Just have fun with it and see what you can create.
 
 ### Basic Installation and Setup
-1. Download and install Simhub from the official website: 
+1. Download and install Simhub from the official website: https://www.simhubdash.com/
 2. Download the dashboard files: https://github.com/user0451/Truckers-GPS-Pro/releases/tag/v1.42
    - You can grab the main Dashboard or any/all of the individual Overlays
 3. Open Simhub and go to the "Dashboards" section.
