@@ -1,7 +1,7 @@
-## Truckers GPS PRO: Dashboard and Overlays for ETS2 and ATS (v1.58)
+## Truckers GPS PRO: Dashboard and Overlays for ETS2 and ATS (v1.59)
 This is a custom dashboard and set of overlays for Euro Truck Simulator 2 (ETS2) and American Truck Simulator (ATS) created using Simhub. The dashboard and overlays are designed to provide additional information about the world around you while you are driving, such as your location, ETA, rest stops, fuel stops, and more. The dashboard is designed to be used on a separate screen, while the overlays can be used on the main game screen to provide additional information without taking up too much space.
 
-[Download the latest release here](https://github.com/user0451/Truckers-GPS-Pro/releases/tag/v1.42)
+[Download the latest release here](https://github.com/user0451/Truckers-GPS-Pro/releases/latest)
 
 ![overlay](https://github.com/user0451/Truckers-GPS-Pro/blob/master/media/131858.png)
 - ⬆️ These are the overlays, place one or all of them anywhere on your game screen to show additional information while driving
@@ -109,7 +109,7 @@ It needs some love though guys; there are plenty of new values that could be exp
 - https://github.com/nlhans/ets2-map - The original Truckmaps project, thanks dude.
 
 ## Updates
-Currently supporting **v1.58** of ATS and ETS2, including all DLC maps. I will update the dashboard and overlays as new versions are released. But, I must wait until ts-map has been updated and then parse that data into what we need and include custom values (UK countries, Sardinia, etc). And someimes, it relies on all of us in the chain to purchase the latest DLC maps, which I warn you, I do not always do... So, expect an update within a week or two for a new game version (my, do they come thick and fast these days!) and who knows for DLCs.
+Currently supporting **v1.59** of ATS and ETS2, including all DLC maps. I will update the dashboard and overlays as new versions are released. But, I must wait until ts-map has been updated and then parse that data into what we need and include custom values (UK countries, Sardinia, etc). And someimes, it relies on all of us in the chain to purchase the latest DLC maps, which I warn you, I do not always do... So, expect an update within a week or two for a new game version (my, do they come thick and fast these days!) and who knows for DLCs.
 
 ## License
 Help yourself to the code or ideas in this project.
