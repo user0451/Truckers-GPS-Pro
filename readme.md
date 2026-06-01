@@ -48,7 +48,7 @@ The software takes a bit of time to learn; but view that as a good thing... the 
 
 ### Basic Installation and Setup
 1. Download and install Simhub from the official website: https://www.simhubdash.com/
-2. Download the dashboard files: https://github.com/user0451/Truckers-GPS-Pro/releases/tag/v1.42
+2. Download the dashboard files: [Download Latest](https://github.com/user0451/Truckers-GPS-Pro/releases/latest)
    - You can grab the main Dashboard or any/all of the individual Overlays
 3. Open Simhub and go to the "Dashboards" section.
 4. Click on "Import Dashboard" and select the downloaded dashboard file (or files). This will import the dashboard into Simhub and make it available for you to use.
