@@ -30,12 +30,6 @@ It's just a personal project I've been messing with for a year or so, set up for
 
 However, this is why I created the Simhub Overlays, which can be used on the main game screen, so you can have the best of both worlds. The dashboard is designed to be used on a seperate screen and features much more information, but the overlays are designed to be used on the main game screen. Show you current location or direction on the main game screen, and then look at the dashboard for more detailed information about your trip. You can choose which information you want to see on the main game screen and which information you want to see on the dashboard, it's up to you.
 
-**It would be great to see youTubers and streamers using the Location Overlays on their main game screen, so we can all see where they are in the world...** You learn a lot about Geography when you play these games!
-
-I must confess, the code is not polished, and there are some things that I would like to improve (some features are pretty pointless!), but it works and I am happy with it for now. I may continue to make improvements and add new features as I have time, but for now, I am happy to share it for others to use, if I can reach my target audience of about two people! If they don't like something, they can remove it or change it to their liking, that's the beauty of Simhub and this project.
-
-Feel free to use any of the ideas or code that I have included in my dashboard, and if you do create something similar, please share it with me, I'd love to see what you come up with!
-
 ![Dashboard](https://github.com/user0451/Truckers-GPS-Pro/blob/master/media/dashSicilyToSardinia.png)
 - ⬆️ This is the main dashboard, showing the ETA for the current job, including our expected rest stops. It also shows the current day and time, the due day and time for the load, the current city and country we're in, and the direction we're currently moving in. The dashboard also shows the nearest service points (fuel, rest, service).
 
