@@ -4,7 +4,7 @@ This is a custom dashboard and set of overlays for Euro Truck Simulator 2 (ETS2)
 [Download the latest release here](https://github.com/user0451/Truckers-GPS-Pro/releases/latest)
 
 ![overlay](https://github.com/user0451/Truckers-GPS-Pro/blob/master/media/131858.png)
-- ⬆️ These are the overlays, place one or all of them anywhere on your game screen to show additional information while driving
+- ⬆️ These are the [overlays](https://github.com/user0451/Truckers-GPS-Pro/wiki/overlays), place one or all of them anywhere on your game screen to show additional information while driving
 - ⬇️ This is the main dashboard, currently on a job travelling though Nevada.
 ![Dashboard](https://github.com/user0451/Truckers-GPS-Pro/blob/master/media/dash3.png)
 ### About
@@ -82,6 +82,7 @@ There are additional binds for some overlays:
 >	- rotating needle with fixed rose
 >	- rotating rose with fixed needle; whatever floats your boat!
 
+See more information on the [overlays wiki](https://github.com/user0451/Truckers-GPS-Pro/wiki/overlays) page.
 
 ![Overlays](https://github.com/user0451/Truckers-GPS-Pro/blob/master/media/overlays.png)
 - ⬆️ ETS2 with Overlays. Yes, I am using a Renault Magnum, and I am loving it!
