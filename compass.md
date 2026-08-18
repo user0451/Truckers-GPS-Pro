@@ -102,3 +102,7 @@ function getDirectionalOffset(direction, invert = false) {
 // - more or less zero error handling; if the direction is invalid, it will return 0.
 // - am I sure I've understood the inversion correctly? It works, but have I over-complicated it...
 ```
+The rose image has the Rotation property bound:
+``` ncalc
+([GameRawData.TruckValues.CurrentValues.PositionValue.Orientation.Heading] * 360) % 360
+```
