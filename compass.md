@@ -2,7 +2,7 @@
 
 ![Compass](https://github.com/user0451/Truckers-GPS-Pro/blob/master/media/compass2.gif)
 
-A little engine to position and style the compass directions based on the current heading of the truck. This will allow us to keep the directions upright and readable as the truck turns, and also allow us to scale and fade them based on their distance from the top of the compass, bringing depth of field to the compass.
+From v1.61 - a little engine to position and style the compass directions based on the current heading of the truck. This will allow us to keep the directions upright and readable as the truck turns, and also allow us to scale and fade them based on their distance from the top of the compass, bringing depth of field to the compass.
 
 ``` js
 const centre = 48; // centre of the compass in pixels (ie, the centre of the compass circle)
@@ -45,7 +45,7 @@ Each of these functions take a direction (N, S, NE, etc) and return a value base
 - fontSize('N') will return a font size for the N textbox based on the compasses field of view, and
 - opacity('N') will return a opacity for the N textbox, again based on the compasses field of view.
 
-And so four textboxes (eight, if you wanna go nuts!) can be positioned and styled based on the current heading of the truck, keeping our directions upright and readable as the truck turns.
+And so four textboxes (~~eight~~ sixteen, if you wanna go nuts!) can be positioned and styled based on the current heading of the truck, keeping our directions upright and readable as the truck turns.
 
 ``` js
 // ---------- Helpers ----------
@@ -84,13 +84,21 @@ function getHeading() {
 function getDirectionalOffset(direction, invert = false) {
 	const offsets = {
 		N: 0,
+		NNE: 22.5,
 		NE: 45,
+		ENE: 67.5,
 		E: 90,
+		ESE: 112.5,
 		SE: 135,
+		SSE: 157.5,
 		S: 180,
+		SSW: 202.5,
 		SW: 225,
+		WSW: 247.5,
 		W: 270,
-		NW: 315
+		WNW: 292.5,
+		NW: 315,
+		NNW: 337.5
 	};
 	let offset = offsets[ucase(direction)] ?? 0;
 	return invert ? (360 - offset) % 360 : offset;
@@ -99,9 +107,8 @@ function getDirectionalOffset(direction, invert = false) {
 // TODO: Future me, if you can be bothered: 
 // - I haven't really dealt with the slight offset of the directions as they move around the compass. 
 // due to them being in a text box. We could add a pixel here and there to adjust; but it's minor, alright for now I think, with current font and radius hiding the sins...
-// - more or less zero error handling; if the direction is invalid, it will return 0.
-// - am I sure I've understood the inversion correctly? It works, but have I over-complicated it...
 ```
+
 The rose image has the Rotation property bound:
 ``` ncalc
 ([GameRawData.TruckValues.CurrentValues.PositionValue.Orientation.Heading] * 360) % 360
