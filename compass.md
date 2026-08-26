@@ -113,4 +113,5 @@ The rose image has the Rotation property bound:
 ``` ncalc
 ([GameRawData.TruckValues.CurrentValues.PositionValue.Orientation.Heading] * 360) % 360
 ```
+### The flat compass
 ![flat compass](https://github.com/user0451/Truckers-GPS-Pro/blob/master/media/flatCompass.gif)
