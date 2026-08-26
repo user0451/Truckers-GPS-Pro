@@ -9,17 +9,18 @@ const centre = 48; // centre of the compass in pixels (ie, the centre of the com
 const radius = 42; // radius of the compass in pixels (ie, distance from centre to our N/S/E/W icons)
 
 function moveLeft(direction) {
-	const offset = offsetByCardinalDirection(direction);
+	const offset = offsetDirection(direction);
 	return Math.round(centre - Math.sin((offset - getHeading()) * Math.PI / 180) * radius);
+}
+
+function moveTop(direction) {
+	const offset = offsetDirection(direction);
+	return Math.round(centre - Math.cos((offset - getHeading()) * Math.PI / 180) * radius);
 }
 // Because we need to invert the E/W directions when positioning them on the screen, 
 // I've chosen to invert the E/W directions in the offsetByCardinalDirection function, 
 // and then use -sin and -cos here to get the correct screen positions. 
 // I could have used +sin and +cos, and then inverted the N/S directions, but it seems cleaner to invert the E/W.
-function moveTop(direction) {
-	const offset = offsetByCardinalDirection(direction);
-	return Math.round(centre - Math.cos((offset - getHeading()) * Math.PI / 180) * radius);
-}
 
 function fontSize(direction, min = 8) {
 	const minFontSize = min;
@@ -38,12 +39,12 @@ function opacity(direction, min = 20) {
 }
 ```
 
-Each of these functions take a direction (N, S, NE, etc) and return a value based on the current heading of the truck. We can then use them in the overlay to position and style each compass direction. For example:
+Each of these functions take a direction (N, SE, SSW, etc) and return a value based on the current heading of the truck. We can then use them in the overlay to position and style each compass direction. For example:
 
-- moveLeft('N') will return the left screen position for the N textbox on the compass,
-- moveTop('N') will return the top screen position for the N textbox,
-- fontSize('N') will return a font size for the N textbox based on the compasses field of view, and
-- opacity('N') will return a opacity for the N textbox, again based on the compasses field of view.
+- moveLeft('N') will return the **Left** screen position for the N textbox on the compass,
+- moveTop('N') will return the **Top** screen position for the N textbox,
+- fontSize('N') will return a **font size** for the N textbox based on the compasses field of view, and
+- opacity('N') will return a **opacity** for the N textbox, again based on the compasses field of view.
 
 And so four textboxes (~~eight~~ sixteen, if you wanna go nuts!) can be positioned and styled based on the current heading of the truck, keeping our directions upright and readable as the truck turns.
 
@@ -52,10 +53,9 @@ And so four textboxes (~~eight~~ sixteen, if you wanna go nuts!) can be position
 
 // Sometimes, when screen coordinates meet map coordinates, confusion ensues; at least in my brain. 
 // We need to rotate either N/S or E/W by 180 degrees to get the right result. I chose to rotate E/W by 180 degrees.
-function offsetByCardinalDirection(direction) {
-	//should make sure the input is valid...
-	return ucase(direction).includes('E') || ucase(direction).includes('W') ?
-		getDirectionalOffset(direction, true) : getDirectionalOffset(direction);
+function offsetDirection(direction) {
+	return ucase(direction).includes('E') || ucase(direction).includes('W') ? 
+	getOffsetFromNorth(direction, true) : getOffsetFromNorth(direction);
 }
 
 // This function takes a direction and returns a value between minScaleValue and maxScaleValue 
@@ -81,7 +81,7 @@ function getHeading() {
 // If invert is true, it will return the offset in the opposite direction (ie, 90 instead of 270). 
 // This way, we can hide all the logic for swapping the E/W directions in one place, and keep the dashboard/overlay code really simple. 
 // The offsets are based on a compass, where North is 0 degrees, East is 90 degrees, South is 180 degrees, and West is 270 degrees.
-function getDirectionalOffset(direction, invert = false) {
+function getOffsetFromNorth(direction, invert = false) {
 	const offsets = {
 		N: 0,
 		NNE: 22.5,
