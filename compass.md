@@ -114,4 +114,6 @@ The rose image has the Rotation property bound:
 ([GameRawData.TruckValues.CurrentValues.PositionValue.Orientation.Heading] * 360) % 360
 ```
 ### The flat compass
+Using the same engine, we also have a flat compass with sixteen points. This time we only need to move the directions horizontally, so we do not bind anything to the Top property of the directions.
+
 ![flat compass](https://github.com/user0451/Truckers-GPS-Pro/blob/master/media/flatCompass.gif)
