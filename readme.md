@@ -1,7 +1,7 @@
-## Truckers GPS PRO: Dashboard and Overlays for ETS2 and ATS (v1.60)
-This is a custom dashboard and set of overlays for Euro Truck Simulator 2 (ETS2) and American Truck Simulator (ATS) created using Simhub. The dashboard and overlays are designed to provide additional information about the world around you while you are driving, such as your location, ETA, rest stops, fuel stops, and more. The dashboard is designed to be used on a separate screen, while the overlays can be used on the main game screen to provide additional information without taking up too much space.
+## Truckers GPS Pro: Dashboard and [Overlays](https://github.com/user0451/Truckers-GPS-Pro/wiki/overlays) for ETS2 and ATS (v1.61)
+This is a custom dashboard and set of overlays for Euro Truck Simulator 2 (ETS2) and American Truck Simulator (ATS) created using Simhub. The dashboard and overlays are designed to provide additional information about the world around you while you are driving, such as your location, ETA, rest stops, fuel stops, and more. The dashboard is designed to be used on a separate screen, while the overlays can be used on the main game screen to provide additional information not easily found in game, without taking up too much space.
 
-[Download the latest release here](https://github.com/user0451/Truckers-GPS-Pro/releases/latest)
+[Download the latest release here](https://github.com/user0451/Truckers-GPS-Pro/releases/latest). This is the only download source.
 
 ![overlay](https://github.com/user0451/Truckers-GPS-Pro/blob/master/media/131858.png)
 - ⬆️ These are the [overlays](https://github.com/user0451/Truckers-GPS-Pro/wiki/overlays), place one or all of them anywhere on your game screen to show additional information while driving
@@ -101,14 +101,11 @@ If just want you to enjoy any extra immersion and fun that the dashboard and ove
 Why is my software free? Because these guys did most of the work!
 
 - SCS Software - for creating such amazing games that allow us to explore the world and have fun driving trucks around. But mostly, for exposing the telemetry data that allows us to have more immersive experiences. The telemetry data is what allows us to access the information needed to create the features in dashboards and overlays, or button-boxes or the rev-limiter on your steering wheel. Fundamentally, this is the tool that has kept me in the game for so long; not the game itself!
-- https://github.com/SHWotever/SimHub - Thanks to the Simhub team for creating such an amazing tool that allows us to create custom dashboards and overlays for our games. Without Simhub, this project would not have been possible. Well, it would, but it would be much messier... A special thanks for keeping the Truckmaps up to date in Simhub.
+- https://github.com/SHWotever/SimHub - Thanks to the Simhub team for creating such an amazing tool that allows us to create custom dashboards and overlays for our games. A special thanks for keeping the Truckmaps up to date in Simhub.
 - https://github.com/dariowouters/ts-map/ - for maintaining the Truckmaps project so diligently. These are an essential part of my dashboard and overlays. The ts-map project provides the data that allows us to display the location information and other features in the dashboard not found in the SCS telemetry data. Legend.
 - https://github.com/nlhans/ets2-map - The original Truckmaps project, thanks dude.
 
-## Updates
-Currently supporting **v1.60** of ATS and ETS2, including all DLC maps. I will update the dashboard and overlays as new versions are released. But, I must wait until ts-map has been updated and then parse that data into what we need and include custom values (UK countries, Sardinia, etc). And someimes, it relies on everyone in the chain to purchase the latest DLC maps, which I warn you, I do not always do... So, expect an update within a week or two for a new game version (my, do they come thick and fast these days!) and who knows for DLCs.
-
-No map changes needed for v1.60, but I have yet to address the new rest mechanic and how it impacts the dashboard.
-
 ## License
 Help yourself to the code or ideas in this project.
+
+Permission is expressly not granted for this software to be uploaded and made available from any other site.
