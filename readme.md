@@ -1,4 +1,4 @@
-## Truckers GPS Pro: Dashboard and [Overlays](https://github.com/user0451/Truckers-GPS-Pro/wiki/overlays) for ETS2 and ATS (v1.61)
+## Truckers GPS Pro: Dashboard and [Overlays](https://github.com/user0451/Truckers-GPS-Pro/wiki/overlays) for ETS2 and ATS (v1.62)
 This is a custom dashboard and set of overlays for Euro Truck Simulator 2 (ETS2) and American Truck Simulator (ATS) created using Simhub. The dashboard and overlays are designed to provide additional information about the world around you while you are driving, such as your location, ETA, rest stops, fuel stops, and more. The dashboard is designed to be used on a separate screen, while the overlays can be used on the main game screen to provide additional information not easily found in game, without taking up too much space.
 
 [Download the latest release here](https://github.com/user0451/Truckers-GPS-Pro/releases/latest). This is the only download source.
